@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Landing Page</title>
+        <link rel="icon" type="image/icon" href="/image/favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+<div class="header">
+  <h2><center>To; The Youth</center></h2>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Resilient Young Minds: Navigating Through the Darkest of Times</h2><br>
+      <br><h4>Young minds always find their way even in the darkest of times</h4>
+      <div class="fakeimg1" style="height: 200px;">
+        <img src="image/youngminds.jpg" alt="Young Minds">
+      </div>
+      <p><b><h3><br>Introduction</h3></b>
+
+        In the tapestry of life, we often find ourselves facing moments of adversity and darkness. These are the times when the human spirit is tested, and it is during these moments that we discover the extraordinary resilience of young minds. This blog explores the incredible strength and unwavering determination of young individuals who, even in the darkest of times, find their way toward the light.<br>
+        
+        <br><b> Power of Resilience:</b>
+        
+        Resilience is the ability to bounce back from challenges and setbacks. It's the mental and emotional strength that enables us to endure difficult situations and emerge stronger. Young minds possess a remarkable capacity for resilience, often surprising even themselves and those around them.<br>
+        
+        <br><b>Facing Personal Challenges:</b>
+        
+        Young people today face a myriad of personal challenges, from academic pressures and social expectations to mental health struggles. The weight of these challenges can sometimes feel overwhelming, but it's precisely during these moments that their resilience shines through.<br>
+        
+        <br><b>Keyword: "Young Minds Resilience"</b></p>
+    </div>
+    <div class="card">
+      <h3>Overcoming Academic Hurdles:</h3>
+      <p>The academic journey can be a steep and demanding climb. However, young minds possess a tenacity that allows them to adapt to new learning environments, overcome educational obstacles, and excel academically.</p><br>
+      <div class="fakeimg2" style="height:200px;">
+      <img src="image/academichurdles.jpg" alt="Hurdles">
+      </div>
+      <p><b><br>Keyword: "Young Minds Academic Resilience"</b><br>
+
+        <br><b>Mental Health and Self-Care:</b>
+        
+        In an increasingly complex world, mental health issues among young people have become more prevalent. However, they are not only seeking help but also taking proactive steps to practice self-care and raise awareness about mental health.<br>
+        
+        <br><b>Keyword: "Young Minds Mental Health Resilience"</b><br>
+        
+        <br><b>Support Systems:</b>
+        
+        Young individuals are fortunate to have support systems in place, including family, friends, mentors, and counselors. These networks provide invaluable guidance and encouragement during difficult times.<br>
+        
+        <br><b> Keyword: "Support for Young Minds"</b><br>
+        
+        <br><b>Turning Challenges into Opportunities:</b>
+        
+        One remarkable aspect of young minds is their ability to transform challenges into opportunities for growth. They learn valuable life lessons from setbacks and use these experiences to shape their future.<br>
+        
+        <br><b>Keyword: "Young Minds Turning Challenges into Opportunities"</b><br>
+        
+        <br><b>Conclusion:</b>
+        
+        The resilience of young minds is a testament to the indomitable human spirit. As they navigate through the darkest of times, they inspire us all with their courage and determination. In the face of adversity, they find their way back to the light, teaching us valuable lessons about strength, perseverance, and the power of the human heart.
+        
+        In our journey through life, let us remember the resilience of young minds and be inspired by their unwavering spirit.<br></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg3" style="height: 5px;">
+      <img src="image/success.jpg" alt="success">
+      </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <p>I'm not one to shy away from a challenge; in fact, I embrace it. I'm a determined and passionate individual who believes in the power of hard work and the pursuit of dreams. 
+
+        So, if you ever wonder who I am, remember this: I'm a girl who loves the grind, embraces the hustle, and knows that the path to success is paved with persistence, passion, and an unyielding spirit.
+        
+        Welcome to my world of dreams, dedication, and the relentless pursuit of excellence.</p>
+    </div>
+    <div class="card">
+      <h3>For More Information</h3>
+      <div class="fakeimg4" >
+      <img src="image/mental_1.jpg" alt="Mental Health" height="200px;" width="280px;"><br>
+      <a href="https://www.voicesofyouth.org/blog/mental-health-awareness" target="_blank">Mental Health Awareness</a>  
+      </div><br>
+      <div class="fakeimg5">
+      <img src="image/successful.jpg" alt="Successful" height="200px;" width="280px;"><br>
+      <a href="https://www.oberlo.com/blog/how-to-be-successful" target="_blank">Ways to be Successful</a>
+      </div><br>
+    <div class="card">
+      <h3 class="follow">Follow Me</h3><br>
+      <form id="newsletter-form">
+        <label for="email" class="label">Sign Up for Our Newsletter:</label><br>
+        <br><input type="email" class="inpe" id="email" name="email" placeholder="Enter your email" required><br>
+        <br><button type="submit" class="button">Subscribe</button>
+    </form>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const form = document.getElementById("newsletter-form");
+    
+          form.addEventListener("submit", function (event) {
+              event.preventDefault();
+    
+              // Validate the email address (you can add more validation logic here)
+              const emailInput = document.getElementById("email");
+              const email = emailInput.value;
+              if (!isValidEmail(email)) {
+                  alert("Please enter a valid email address.");
+                  return;
+              }
+              alert("Thank you for subscribing");
+              form.reset();
+          });
+    
+          // Simple email validation function
+          function isValidEmail(email) {
+              const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+              return emailRegex.test(email);
+          }
+      });
+    </script>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <footer>
+    
+  
+  
+    <a href="" target="_blank">
+      <img src="image/instagram.jpg" alt="Instagram Logo" height="30px;" width="30px;">
+  </a>
+  <p>&copy; 2023 Young Minds. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
